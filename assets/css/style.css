@@ -22,6 +22,10 @@ h1 {
     font-size: 3vw;
 }
 
+.fa-caret-up {
+    display: block;
+    margin: 0;
+}
 
 .outer-container {
     margin: 10% auto;
@@ -43,6 +47,10 @@ input.login, input.password {
     min-width: 8vw;
 }
 
+textarea {
+    resize: none;
+}
+
 label {
     margin-top: 20px;
     display: block;
@@ -55,6 +63,16 @@ a.enter {
     min-width: 10vw;
 }
 
-.red {
-    color: red;
+.img-placeholder {
+    margin: 20px auto;
+    height: 120px;
+    width: 150px;
+    background-color: lightgrey;
+
 }
+
+
+
+/*.red {
+    color: red;
+}*/
