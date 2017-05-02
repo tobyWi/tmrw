@@ -1,0 +1,14 @@
+.outer-container {
+    margin: 10% auto;
+}
+
+
+input.login, input.password {
+    margin-top: 20px;
+    border-top: 1px;
+}
+
+button.enter {
+    margin-top: 20px;
+    font-size: 12px;
+}
