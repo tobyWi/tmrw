@@ -47,3 +47,7 @@ button.enter {
     font-size: 12px;
     min-width: 10vw;
 }
+
+.red {
+    color: red;
+}
