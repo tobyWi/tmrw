@@ -81,8 +81,16 @@ a.enter {
     background-color: lightgrey;
 }
 
+.img-placeholder-pdf{
+    margin: 20px auto;
+    height: 120px;
+    width: 90px;
+    background-color: lightgrey;
+}
+
 .box {
     border: solid 1px black;
     padding: 20px;
     width: 300px;
+    margin-bottom: 20px;
 }
