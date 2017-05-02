@@ -4,11 +4,6 @@ body {
     font-family: Ubuntu;
 }
 
-.btn-success.btn-outline:hover {
-    color: #fff;
-}
-
-
 a,
 a:hover {
     color: white;
@@ -28,6 +23,10 @@ table.projects {
     margin: 0 auto;
 }
 
+th, td {
+    padding: 10px;
+}
+
 input.login, input.password {
 
     border-top: 1px;
@@ -42,7 +41,7 @@ label {
     font-size: 12px;
 }
 
-button.enter {
+a.enter {
     margin-top: 20px;
     font-size: 12px;
     min-width: 10vw;
