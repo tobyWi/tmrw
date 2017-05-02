@@ -1,14 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+    font-family: Ubuntu;
+}
+
+.btn-success.btn-outline:hover {
+    color: #fff;
+}
+
+
+a,
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+
 .outer-container {
     margin: 10% auto;
 }
 
+table.projects {
+    margin: 0 auto;
+}
 
 input.login, input.password {
-    margin-top: 20px;
+
     border-top: 1px;
+    background-color: lightgrey;
+    border: none;
+    min-width: 8vw;
+}
+
+label {
+    margin-top: 20px;
+    display: block;
+    font-size: 12px;
 }
 
 button.enter {
     margin-top: 20px;
     font-size: 12px;
+    min-width: 10vw;
 }
