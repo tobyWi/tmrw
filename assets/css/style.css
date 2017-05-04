@@ -4,6 +4,56 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran');
 
 
+
+/* ---------- header ----------------------------------*/
+
+
+#header {
+    width: 50% !important;
+    margin: 0 auto;
+    position: fixed;
+    margin-bottom: 50px;
+    left: 0px;
+    right: 0px;
+    z-index: 99;
+}
+
+
+div.tab-menu {
+    overflow: hidden;
+    border-bottom: 1px solid lightblue;
+}
+
+div.tab-menu button {
+    background-color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+
+div.tab-menu button:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+
+div.tab-menu button.active {
+    background-color: lightblue;
+    color: white;
+}
+
+.tab-content {
+    display: none;
+    border-top: none;
+}
+
+
+/* Responsive menu */
+
 .tab-menu.responsive a.icon {
     position: absolute;
     right: 0;
@@ -33,59 +83,6 @@ ul.responsive-menu.show button {
     border: 0;
     color: white;
     font-size: 12px;
-}
-
-
-/* ---------- header ----------------------------------*/
-
-
-
-#header {
-    width: 50% !important;
-    margin: 0 auto;
-    position: fixed;
-    margin-bottom: 50px;
-    left: 0px;
-    right: 0px;
-    z-index: 99;
-}
-
-/* tab menu */
-
-/* Style the tab */
-div.tab-menu {
-    overflow: hidden;
-    border-bottom: 1px solid lightblue;
-/*    background-color: #f1f1f1;*/
-}
-
-/* Style the buttons inside the tab */
-div.tab-menu button {
-    background-color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-}
-
-/* Change background color of buttons on hover */
-div.tab-menu button:hover {
-    background-color: lightblue;
-    color: white;
-}
-
-/* Create an active/current tablink class */
-div.tab-menu button.active {
-    background-color: lightblue;
-    color: white;
-}
-
-/* Style the tab content */
-.tab-content {
-    display: none;
-    border-top: none;
 }
 
 
