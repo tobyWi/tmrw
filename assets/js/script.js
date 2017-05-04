@@ -15,9 +15,7 @@ function openTab(evt, tabName) {
 
     var i, 
     tabcontent, 
-    tablinks,
-    responsivelinks;
-
+    tablinks;
 
     var x = document.getElementById("myTopnav");
     
