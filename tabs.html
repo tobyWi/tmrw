@@ -3,7 +3,7 @@
     <head>
         <title></title>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, inital-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="bower_components/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" />       
         <link href="assets/css/style.css" type="text/css" rel="stylesheet" />
         <script src="assets/js/script.js"></script>
@@ -13,16 +13,23 @@
 
     <header id="header">
 
-        <i class="fa fa-bars fa-2x"></i>      
-
-        <div class="tab-menu mb-20">
-    
+        <i class="fa fa-bars fa-2x" onclick="myFunction()"></i>  
+   
+        <div class="tab-menu mb-20">    
           <button class="tab-link" id="defaultopen" onclick="openTab(event, 'overview')">Overview</button>
           <button class="tab-link" onclick="openTab(event, 'projects')">Projects</button>
           <button class="tab-link" onclick="openTab(event, 'company')">Company</button>
           <button class="tab-link" onclick="openTab(event, 'career')">Career</button>
           <button class="tab-link" onclick="openTab(event, 'contact')">Contact</button>
         </div>
+        
+        <ul class="responsive-menu" id="myTopnav">    
+            <li><button class="tab-link" id="defaultopen" onclick="openTab(event, 'overview')">Overview</button></li>
+            <li><button class="tab-link" onclick="openTab(event, 'projects')">Projects</button></li>
+            <li><button class="tab-link" onclick="openTab(event, 'company')">Company</button></li>
+            <li><button class="tab-link" onclick="openTab(event, 'career')">Career</button></li>
+            <li><button class="tab-link" onclick="openTab(event, 'contact')">Contact</button></li>
+        </ul>
         
 
     </header>

@@ -4,8 +4,28 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran');
 
 
+.tab-menu.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .tab-menu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 
-/* ------- header -----------*/
+ul.responsive-menu {
+    display: none;
+}
+
+ul.responsive-menu.show {
+    display: block;
+    
+}
+
+
+/* ---------- header ----------------------------------*/
 
 
 
@@ -58,10 +78,6 @@ div.tab-menu button.active {
 }
 
 
-
-
-
-
 /* ------------ General Styles ----------------------- */
 
 * {
@@ -86,7 +102,20 @@ body {
     padding-top: 50px;
 }
 
-
+#wrap-login {
+    width: 400px;
+    height: 600px;
+    position: fixed; 
+    left:0; 
+    right:0;
+    top:0; 
+    bottom:0;
+    margin:auto;
+    max-width:100%;
+    max-height:100%;
+    overflow:auto;
+    text-align: center;
+}
 
 a {
     color: black;

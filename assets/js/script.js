@@ -1,5 +1,7 @@
 window.onload = function() {
     document.getElementById("defaultopen").click();
+
+
 }
 
 
@@ -23,5 +25,15 @@ function openTab(evt, tabName) {
 
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
+}
+
+   function myFunction() {
+    var x = document.getElementById("myTopnav");
+        if (x.className === "responsive-menu") {
+            x.className += " show";
+        } else {
+            x.className = "responsive-menu";
+        }
+
 }
 
