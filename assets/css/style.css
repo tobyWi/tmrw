@@ -300,6 +300,10 @@ select.content {
     float: right;
     right: 10px;
     position: absolute;
+    font-size: 22px;  
+    display: block;
+    color: white; 
+    margin-top: 9px;  
 }
 
 
@@ -343,11 +347,6 @@ select.content {
 @media (max-width: 414px ) {
     .tab-menu {
         display: none;
-    }
-    .fa.fa-bars {
-        display: block;
-        color: white; 
-        margin-top: 4px;
     }
 
     #header {
