@@ -15,8 +15,6 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap-css-only": "^3.3.7",
     "font-awesome": "fontawesome#^4.7.0",
-    "normalize-css": "normalize.css#^7.0.0"
   }
 }
