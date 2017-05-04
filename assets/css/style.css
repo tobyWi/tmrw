@@ -333,6 +333,7 @@ select.content {
 }
 
 
+/*------ Media Query ------------------*/
 
 @media (max-width: 751px ) {
    #header {
@@ -351,5 +352,4 @@ select.content {
         top: 0px;
         height: 40px;
     }
-
 }
