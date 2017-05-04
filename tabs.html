@@ -13,7 +13,7 @@
 
     <header id="header">
 
-        <i class="fa fa-bars fa-2x" onclick="myFunction()"></i>  
+        <i class="fa fa-bars fa-2x" id="bars" onclick="myFunction()"></i>  
    
         <div class="tab-menu mb-20">    
           <button class="tab-link" id="defaultopen" onclick="openTab(event, 'overview')">Overview</button>
@@ -25,13 +25,12 @@
         
     
             <ul class="responsive-menu" id="myTopnav">  
-                <li><button class="tab-link" id="defaultopen" onclick="openTab(event, 'overview')">Overview</button></li>
-                <li><button class="tab-link" onclick="openTab(event, 'projects')">Projects</button></li>
-                <li><button class="tab-link" onclick="openTab(event, 'company')">Company</button></li>
-                <li><button class="tab-link" onclick="openTab(event, 'career')">Career</button></li>
-                <li><button class="tab-link" onclick="openTab(event, 'contact')">Contact</button></li>
+                <li><button onclick="openTab(event, 'overview')">Overview</button></li>
+                <li><button onclick="openTab(event, 'projects')">Projects</button></li>
+                <li><button onclick="openTab(event, 'company')">Company</button></li>
+                <li><button onclick="openTab(event, 'career')">Career</button></li>
+                <li><button onclick="openTab(event, 'contact')">Contact</button></li>
             </ul>
-
 
     </header>
         
