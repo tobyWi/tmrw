@@ -152,6 +152,10 @@ input {
     height: 25px;
 }
 
+    input.login, input.password {
+        width: 180px;
+    }
+
 textarea {
     resize: none;
     height: 90px;
@@ -172,6 +176,8 @@ select.content {
     height: 50px;
     font-size: 14px;
 }
+
+/* font-awesome styling */
 
 .fa.fa-plus {
     margin-left: 5px;
