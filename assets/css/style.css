@@ -9,7 +9,7 @@
 
 
 #header {
-    width: 50% !important;
+    width: 50%;
     margin: 0 auto;
     position: fixed;
     margin-bottom: 50px;
@@ -86,7 +86,7 @@ ul.responsive-menu.show button {
 }
 
 
-/* ------------ General Styles ----------------------- */
+/* ------------ Main Styles ----------------------- */
 
 * {
     box-sizing: border-box;
@@ -170,7 +170,7 @@ label {
 
 
 
-/*---------- Box style --------------------- */
+/* Box style */
 
 .slidebox {
     position: relative;
@@ -333,11 +333,11 @@ select.content {
 }
 
 
-/*------ Media Query ------------------*/
+/*--------------- Media Query ------------------*/
 
 @media (max-width: 751px ) {
    #header {
-        width: 100% !important;
+        width: 100%;
     }
 
 }

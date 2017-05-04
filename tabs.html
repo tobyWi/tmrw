@@ -10,370 +10,374 @@
     </head>
     <body>
 
+        <header id="header">
 
-    <header id="header">
 
-
-        <i class="fa fa-bars" id="bars" onclick="myFunction()"></i>  
-   
-        <div class="tab-menu mb-20">    
-          <button class="tab-link" id="defaultopen" onclick="openTab(event, 'overview')">Overview</button>
-          <button class="tab-link" onclick="openTab(event, 'projects')">Projects</button>
-          <button class="tab-link" onclick="openTab(event, 'company')">Company</button>
-          <button class="tab-link" onclick="openTab(event, 'career')">Career</button>
-          <button class="tab-link" onclick="openTab(event, 'contact')">Contact</button>
-        </div>
-        
-    
-        <ul class="responsive-menu" id="myTopnav">  
-            <li><button onclick="openTab(event, 'overview')">Overview</button></li>
-            <li><button onclick="openTab(event, 'projects')">Projects</button></li>
-            <li><button onclick="openTab(event, 'company')">Company</button></li>
-            <li><button onclick="openTab(event, 'career')">Career</button></li>
-            <li><button onclick="openTab(event, 'contact')">Contact</button></li>
-        </ul>
-
-    </header>
-        
-    <div id="wrap">
-        
-         <!-- Overview page -->
-
-        <div id="overview" class="tab-content">    
-            <div class="slidebox">  
-                <h2>Project overview</h2>   
-                <div class="blue">
-                <button class="button blue">Add project<i class="fa fa-plus fa-1x"></i></button> </div>
-
-                <table class="projects">          
-                    <tbody>
-                        <tr>
-                            <td><i class="fa fa-star"></i></td>   
-                            <td>Project steel</td>   
-                            <td><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></td>   
-                            <td><i class="fa fa-pencil"></i></td>   
-                            <td><i class="fa fa-times"></i></td>      
-                        </tr>
-                        <tr>
-                            <td><i class="fa fa-star-o"></i></td>   
-                            <td>Project steel</td>   
-                            <td><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></td>   
-                            <td><i class="fa fa-pencil"></i></td>   
-                            <td><i class="fa fa-times"></i></td>      
-                        </tr>
-                        <tr>
-                            <td><i class="fa fa-star-o"></i></td>   
-                            <td>Project steel</td>   
-                            <td><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></td>   
-                            <td><i class="fa fa-pencil"></i></td>   
-                            <td><i class="fa fa-times"></i></td>      
-                        </tr>
-                        <tr>
-                            <td><i class="fa fa-star-o"></i></td>   
-                            <td>Project steel</td>   
-                            <td><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></td>   
-                            <td><i class="fa fa-pencil"></i></td>   
-                            <td><i class="fa fa-times"></i></td>      
-                        </tr>
-                        <tr>
-                            <td><i class="fa fa-star-o"></i></td>   
-                            <td>Project steel</td>   
-                            <td><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></td>   
-                            <td><i class="fa fa-pencil"></i></td>   
-                            <td><i class="fa fa-times"></i></td>      
-                        </tr>
-                    </tbody>    
-                </table>              
+            <i class="fa fa-bars" id="bars" onclick="myFunction()"></i>  
+       
+            <div class="tab-menu mb-20">    
+              <button class="tab-link" id="defaultopen" onclick="openTab(event, 'overview')">Overview</button>
+              <button class="tab-link" onclick="openTab(event, 'projects')">Projects</button>
+              <button class="tab-link" onclick="openTab(event, 'company')">Company</button>
+              <button class="tab-link" onclick="openTab(event, 'career')">Career</button>
+              <button class="tab-link" onclick="openTab(event, 'contact')">Contact</button>
             </div>
-        </div>
-
-        <!-- Projects page -->
-
-        <div id="projects" class="tab-content">
-
-            <div class="slidebox">        
-                <h2>General info</h2>       
-                
-                <label for="name">Project name</label>
-                <input type="text" name="name"><br />
-                
-                <label for="client">Client name</label>
-                <input type="text" name="client">
-                
-                <div class="img-placeholder mb-20"></div>
-                
-                <button class="button blue">Browse</a>
-                <button class="button border"><i class="fa fa-hand-pointer-o fa-1x"></i>Upload</button>
-                
-                <br />
-                
-                <label for="description">Share description</label>
-                <textarea name="description"></textarea>
-               
-                <h2>Filter</h2>
-               
-                <button class="button border">Tall</button>
-                <button class="button border">Night</button>
-                <button class="button border">Residence</button>
-                <button class="button border">Small</button>      
-            </div>
-
-            <div class="slidebox">     
-                <button class="closeslide"><i class="fa fa-times"></i></button>   
-                <h2>Story - Cover</h2>
-                <div class="img-placeholder-long mb-20"></div>
-                <button name="browse" class="button blue">Browse</a>        
-            </div>
-
-
-            <div class="slidebox">  
-                <button class="closeslide"><i class="fa fa-times"></i></button>   
-                <button class="slidedown"><i class="fa fa-chevron-down"></i></button>   
-                
-                <h2>Story - text</h2>
-                <label>Title</label>
-                <input type="" name=""></input>    
-                <label for="description">Body Text</label>
-                <textarea name="description"></textarea>
-                <br />
-            </div>
-
-            <div class="slidebox">
-
-                <button class="closeslide"><i class="fa fa-times"></i></button>   
-                <button class="slideup"><i class="fa fa-chevron-up"></i></button> 
-                <button class="slidedown"><i class="fa fa-chevron-down"></i></button> 
-
-                <h2>Story - Image</h2>
-                <div class="img-placeholder-width mb-20"></div>
-                <button name="browse" class="button blue">Browse</a>
-                <button class="button border"><i class="fa fa-hand-pointer-o fa-1x"></i>Upload</button>
-                <br />
-            </div>
-
-            <div class="slidebox">
-
-                <button class="closeslide"><i class="fa fa-times"></i></button>   
-                <button class="slideup"><i class="fa fa-chevron-up"></i></button> 
-                <button class="slidedown"><i class="fa fa-chevron-down"></i></button> 
-
-                <h2>Story - Video</h2>
-                <div class="img-placeholder-width"></div>
-                <label  name="link" >URL link</label>
-                <input type="text" name="link"></input> 
-                <button class="button border"><i class="fa fa-hand-pointer-o fa-1x"></i>Upload</button>
-                <br />
-            </div>
-
-            <div class="slidebox">
-
-                <button class="closeslide"><i class="fa fa-times"></i></button>   
-                <button class="slideup"><i class="fa fa-chevron-up"></i></button> 
-                <button class="slidedown"><i class="fa fa-chevron-down"></i></button>     
-                <h2>Story - Download</h2>
-                <label for="title">Title</label>
-                <input type="text" name="title" />
-                <label for="bodytext">Bodytext</label>
-                <textarea name="bodytext"></textarea>
-                <div class="img-placeholder-pdf mb-20">(PDF name)</div> 
-                <button name="browse" class="button blue">Browse</a>
-                <button class="button border"><i class="fa fa-hand-pointer-o fa-1x"></i>Upload</button>
-            </div>
-
-            <div class="slidebox">
-                <div class="selectwrap">
-                    <select class="content">
-                        <option selected disabled>Add content type</option>                    
-                        <option value="1">1</option>                    
-                        <option value="2">2</option>                    
-                        <option value="3">3</option>                    
-                    </select>
-                </div>      
-            </div>
-
-            <div class="slidebox">
-                <div class="selectwrap">
-                    <button class="button blue">Preview</button>
-                    <button class="button green">Save</button>
-                </div>
-                   
-            </div>
-        </div>
-
-        <!-- Company page -->
-
-        <div id="company" class="tab-content">
-        
-            <div class="slidebox">        
-                <h2>General info</h2>       
-                
-                <label for="name">Project name</label>
-                <input type="text" name="name"><br />
-                
-                <label for="client">Client name</label>
-                <input type="text" name="client">
-                
-                <div class="img-placeholder mb-20"></div>
-                
-                <button class="button blue">Browse</a>
-                <button class="button border"><i class="fa fa-hand-pointer-o fa-1x"></i>Upload</button>
-                
-                <br />
-                
-                <label for="description">Share description</label>
-                <textarea name="description"></textarea>
-                
-                <label for="tags">Meta tags*</label>
-                <input type="text" name="tags">
-                <div class="blue mt-20">
-                <button class="button blue">Add tag<i class="fa fa-plus fa-1x"></i></button> </div>
-            </div>     
-
-            <div class="slidebox">
-                <button class="closeslide"><i class="fa fa-times"></i></button> 
-                <h2>Story - Title</h2>
-                <label for="title">Title</label>
-                <input type="text" name="title">                       
-            </div>
-
-            <div class="slidebox">  
-                <button class="closeslide"><i class="fa fa-times"></i></button>                 
-                <h2>Story - text</h2>
-                <label>Title</label>
-                <input type="" name=""></input>    
-                <label for="description">Body Text</label>
-                <textarea name="description"></textarea>
-                <br />
-            </div>
-                
-            <div class="slidebox">
-                <div class="selectwrap">
-                    <select class="content">
-                        <option selected disabled>Add content type</option>                    
-                        <option value="1">1</option>                    
-                        <option value="2">2</option>                    
-                        <option value="3">3</option>                    
-                    </select>
-                </div>      
-            </div>
-
-            <div class="slidebox">
-                <div class="selectwrap">
-                    <button class="button blue">Preview</button>
-                    <button class="button green">Save</button>
-                </div>               
-            </div>
-        </div>
-
-        <!-- Career page -->
-
-        <div id="career" class="tab-content">
             
-            <div class="slidebox">        
-                <h2>General info</h2>       
-                
-                <label for="name">Project name</label>
-                <input type="text" name="name"><br />
-                
-                <label for="client">Client name</label>
-                <input type="text" name="client">
-                
-                <div class="img-placeholder mb-20"></div>
-                
-                <button class="button blue">Browse</a>
-                <button class="button border"><i class="fa fa-hand-pointer-o fa-1x"></i>Upload</button>
-                
-                <br />
-                
-                <label for="description">Share description</label>
-                <textarea name="description"></textarea>
-                
-                <label for="tags">Meta tags*</label>
-                <input type="text" name="tags">
-                <div class="blue mt-20">
-                <button class="button blue">Add tag<i class="fa fa-plus fa-1x"></i></button> </div>
-            </div>  
+        
+            <ul class="responsive-menu" id="myTopnav">  
+                <li><button onclick="openTab(event, 'overview')">Overview</button></li>
+                <li><button onclick="openTab(event, 'projects')">Projects</button></li>
+                <li><button onclick="openTab(event, 'company')">Company</button></li>
+                <li><button onclick="openTab(event, 'career')">Career</button></li>
+                <li><button onclick="openTab(event, 'contact')">Contact</button></li>
+            </ul>
 
-            <div class="slidebox">
-                <button class="closeslide"><i class="fa fa-times"></i></button> 
-                <h2>Story - Title</h2>
-                <label for="title">Title</label>
-                <input type="text" name="title">                       
-            </div>
+        </header>
 
-          
-            <div class="slidebox">
-                <button class="closeslide"><i class="fa fa-times"></i></button>   
-                <button class="slideup"><i class="fa fa-chevron-up"></i></button> 
-                <button class="slidedown"><i class="fa fa-chevron-down"></i></button>     
-                <h2>Story - Download</h2>
-                <label for="title">Title</label>
-                <input type="text" name="title" />
-                <label for="bodytext">Bodytext</label>
-                <textarea name="bodytext"></textarea>
-                <div class="img-placeholder-pdf mb-20">(PDF name)</div> 
-                <button name="browse" class="button blue">Browse</a>
-                <button class="button border"><i class="fa fa-hand-pointer-o fa-1x"></i>Upload</button>
-            </div>
+        <main>
+            
+            <div id="wrap">
+                
+                 <!-- Overview page -->
 
-            <div class="slidebox">
-                <div class="selectwrap">
-                    <select class="content">
-                        <option selected disabled>Add content type</option>                    
-                        <option value="1">1</option>                    
-                        <option value="2">2</option>                    
-                        <option value="3">3</option>                    
-                    </select>
-                </div>      
-            </div>
+                <div id="overview" class="tab-content">    
+                    <div class="slidebox">  
+                        <h2>Project overview</h2>   
+                        <div class="blue">
+                        <button class="button blue">Add project<i class="fa fa-plus fa-1x"></i></button> </div>
 
-            <div class="slidebox">
-                <div class="selectwrap">
-                    <button class="button blue">Preview</button>
-                    <button class="button green">Save</button>
+                        <table class="projects">          
+                            <tbody>
+                                <tr>
+                                    <td><i class="fa fa-star"></i></td>   
+                                    <td>Project steel</td>   
+                                    <td><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></td>   
+                                    <td><i class="fa fa-pencil"></i></td>   
+                                    <td><i class="fa fa-times"></i></td>      
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-star-o"></i></td>   
+                                    <td>Project steel</td>   
+                                    <td><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></td>   
+                                    <td><i class="fa fa-pencil"></i></td>   
+                                    <td><i class="fa fa-times"></i></td>      
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-star-o"></i></td>   
+                                    <td>Project steel</td>   
+                                    <td><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></td>   
+                                    <td><i class="fa fa-pencil"></i></td>   
+                                    <td><i class="fa fa-times"></i></td>      
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-star-o"></i></td>   
+                                    <td>Project steel</td>   
+                                    <td><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></td>   
+                                    <td><i class="fa fa-pencil"></i></td>   
+                                    <td><i class="fa fa-times"></i></td>      
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-star-o"></i></td>   
+                                    <td>Project steel</td>   
+                                    <td><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></td>   
+                                    <td><i class="fa fa-pencil"></i></td>   
+                                    <td><i class="fa fa-times"></i></td>      
+                                </tr>
+                            </tbody>    
+                        </table>              
+                    </div>
                 </div>
-                   
-            </div>
-        </div>
 
-        <!-- Contact page -->
+                <!-- Projects page -->
 
-        <div id="contact" class="tab-content">
-           
-            <div class="slidebox">        
-                <h2>Story - Contact</h2>       
-                
-                <label for="name">Name</label>
-                <input type="text" name="name"><br />
-                
-                <label for="bodytext">Body text</label>
-                <textarea name="bodytext"></textarea>
-                
-                <label for="mail">Mail link</label>
-                <input type="email" name="mail">
-                <div class="blue mt-20">
-                <button class="button blue">Add contact<i class="fa fa-plus fa-1x"></i></button> </div>
-            </div>  
+                <div id="projects" class="tab-content">
 
-            <div class="slidebox">
-                <div class="selectwrap">
-                    <select class="content">
-                        <option selected disabled>Add content type</option>                    
-                        <option value="1">1</option>                    
-                        <option value="2">2</option>                    
-                        <option value="3">3</option>                    
-                    </select>
-                </div>      
-            </div>
+                    <div class="slidebox">        
+                        <h2>General info</h2>       
+                        
+                        <label for="name">Project name</label>
+                        <input type="text" name="name"><br />
+                        
+                        <label for="client">Client name</label>
+                        <input type="text" name="client">
+                        
+                        <div class="img-placeholder mb-20"></div>
+                        
+                        <button class="button blue">Browse</a>
+                        <button class="button border"><i class="fa fa-hand-pointer-o fa-1x"></i>Upload</button>
+                        
+                        <br />
+                        
+                        <label for="description">Share description</label>
+                        <textarea name="description"></textarea>
+                       
+                        <h2>Filter</h2>
+                       
+                        <button class="button border">Tall</button>
+                        <button class="button border">Night</button>
+                        <button class="button border">Residence</button>
+                        <button class="button border">Small</button>      
+                    </div>
 
-            <div class="slidebox">
-                <div class="selectwrap">
-                    <button class="button blue">Preview</button>
-                    <button class="button green">Save</button>
+                    <div class="slidebox">     
+                        <button class="closeslide"><i class="fa fa-times"></i></button>   
+                        <h2>Story - Cover</h2>
+                        <div class="img-placeholder-long mb-20"></div>
+                        <button name="browse" class="button blue">Browse</a>        
+                    </div>
+
+
+                    <div class="slidebox">  
+                        <button class="closeslide"><i class="fa fa-times"></i></button>   
+                        <button class="slidedown"><i class="fa fa-chevron-down"></i></button>   
+                        
+                        <h2>Story - text</h2>
+                        <label>Title</label>
+                        <input type="" name=""></input>    
+                        <label for="description">Body Text</label>
+                        <textarea name="description"></textarea>
+                        <br />
+                    </div>
+
+                    <div class="slidebox">
+
+                        <button class="closeslide"><i class="fa fa-times"></i></button>   
+                        <button class="slideup"><i class="fa fa-chevron-up"></i></button> 
+                        <button class="slidedown"><i class="fa fa-chevron-down"></i></button> 
+
+                        <h2>Story - Image</h2>
+                        <div class="img-placeholder-width mb-20"></div>
+                        <button name="browse" class="button blue">Browse</a>
+                        <button class="button border"><i class="fa fa-hand-pointer-o fa-1x"></i>Upload</button>
+                        <br />
+                    </div>
+
+                    <div class="slidebox">
+
+                        <button class="closeslide"><i class="fa fa-times"></i></button>   
+                        <button class="slideup"><i class="fa fa-chevron-up"></i></button> 
+                        <button class="slidedown"><i class="fa fa-chevron-down"></i></button> 
+
+                        <h2>Story - Video</h2>
+                        <div class="img-placeholder-width"></div>
+                        <label  name="link" >URL link</label>
+                        <input type="text" name="link"></input> 
+                        <button class="button border"><i class="fa fa-hand-pointer-o fa-1x"></i>Upload</button>
+                        <br />
+                    </div>
+
+                    <div class="slidebox">
+
+                        <button class="closeslide"><i class="fa fa-times"></i></button>   
+                        <button class="slideup"><i class="fa fa-chevron-up"></i></button> 
+                        <button class="slidedown"><i class="fa fa-chevron-down"></i></button>     
+                        <h2>Story - Download</h2>
+                        <label for="title">Title</label>
+                        <input type="text" name="title" />
+                        <label for="bodytext">Bodytext</label>
+                        <textarea name="bodytext"></textarea>
+                        <div class="img-placeholder-pdf mb-20">(PDF name)</div> 
+                        <button name="browse" class="button blue">Browse</a>
+                        <button class="button border"><i class="fa fa-hand-pointer-o fa-1x"></i>Upload</button>
+                    </div>
+
+                    <div class="slidebox">
+                        <div class="selectwrap">
+                            <select class="content">
+                                <option selected disabled>Add content type</option>                    
+                                <option value="1">1</option>                    
+                                <option value="2">2</option>                    
+                                <option value="3">3</option>                    
+                            </select>
+                        </div>      
+                    </div>
+
+                    <div class="slidebox">
+                        <div class="selectwrap">
+                            <button class="button blue">Preview</button>
+                            <button class="button green">Save</button>
+                        </div>
+                           
+                    </div>
                 </div>
+
+                <!-- Company page -->
+
+                <div id="company" class="tab-content">
+                
+                    <div class="slidebox">        
+                        <h2>General info</h2>       
+                        
+                        <label for="name">Project name</label>
+                        <input type="text" name="name"><br />
+                        
+                        <label for="client">Client name</label>
+                        <input type="text" name="client">
+                        
+                        <div class="img-placeholder mb-20"></div>
+                        
+                        <button class="button blue">Browse</a>
+                        <button class="button border"><i class="fa fa-hand-pointer-o fa-1x"></i>Upload</button>
+                        
+                        <br />
+                        
+                        <label for="description">Share description</label>
+                        <textarea name="description"></textarea>
+                        
+                        <label for="tags">Meta tags*</label>
+                        <input type="text" name="tags">
+                        <div class="blue mt-20">
+                        <button class="button blue">Add tag<i class="fa fa-plus fa-1x"></i></button> </div>
+                    </div>     
+
+                    <div class="slidebox">
+                        <button class="closeslide"><i class="fa fa-times"></i></button> 
+                        <h2>Story - Title</h2>
+                        <label for="title">Title</label>
+                        <input type="text" name="title">                       
+                    </div>
+
+                    <div class="slidebox">  
+                        <button class="closeslide"><i class="fa fa-times"></i></button>                 
+                        <h2>Story - text</h2>
+                        <label>Title</label>
+                        <input type="" name=""></input>    
+                        <label for="description">Body Text</label>
+                        <textarea name="description"></textarea>
+                        <br />
+                    </div>
+                        
+                    <div class="slidebox">
+                        <div class="selectwrap">
+                            <select class="content">
+                                <option selected disabled>Add content type</option>                    
+                                <option value="1">1</option>                    
+                                <option value="2">2</option>                    
+                                <option value="3">3</option>                    
+                            </select>
+                        </div>      
+                    </div>
+
+                    <div class="slidebox">
+                        <div class="selectwrap">
+                            <button class="button blue">Preview</button>
+                            <button class="button green">Save</button>
+                        </div>               
+                    </div>
+                </div>
+
+                <!-- Career page -->
+
+                <div id="career" class="tab-content">
+                    
+                    <div class="slidebox">        
+                        <h2>General info</h2>       
+                        
+                        <label for="name">Project name</label>
+                        <input type="text" name="name"><br />
+                        
+                        <label for="client">Client name</label>
+                        <input type="text" name="client">
+                        
+                        <div class="img-placeholder mb-20"></div>
+                        
+                        <button class="button blue">Browse</a>
+                        <button class="button border"><i class="fa fa-hand-pointer-o fa-1x"></i>Upload</button>
+                        
+                        <br />
+                        
+                        <label for="description">Share description</label>
+                        <textarea name="description"></textarea>
+                        
+                        <label for="tags">Meta tags*</label>
+                        <input type="text" name="tags">
+                        <div class="blue mt-20">
+                        <button class="button blue">Add tag<i class="fa fa-plus fa-1x"></i></button> </div>
+                    </div>  
+
+                    <div class="slidebox">
+                        <button class="closeslide"><i class="fa fa-times"></i></button> 
+                        <h2>Story - Title</h2>
+                        <label for="title">Title</label>
+                        <input type="text" name="title">                       
+                    </div>
+
+                  
+                    <div class="slidebox">
+                        <button class="closeslide"><i class="fa fa-times"></i></button>   
+                        <button class="slideup"><i class="fa fa-chevron-up"></i></button> 
+                        <button class="slidedown"><i class="fa fa-chevron-down"></i></button>     
+                        <h2>Story - Download</h2>
+                        <label for="title">Title</label>
+                        <input type="text" name="title" />
+                        <label for="bodytext">Bodytext</label>
+                        <textarea name="bodytext"></textarea>
+                        <div class="img-placeholder-pdf mb-20">(PDF name)</div> 
+                        <button name="browse" class="button blue">Browse</a>
+                        <button class="button border"><i class="fa fa-hand-pointer-o fa-1x"></i>Upload</button>
+                    </div>
+
+                    <div class="slidebox">
+                        <div class="selectwrap">
+                            <select class="content">
+                                <option selected disabled>Add content type</option>                    
+                                <option value="1">1</option>                    
+                                <option value="2">2</option>                    
+                                <option value="3">3</option>                    
+                            </select>
+                        </div>      
+                    </div>
+
+                    <div class="slidebox">
+                        <div class="selectwrap">
+                            <button class="button blue">Preview</button>
+                            <button class="button green">Save</button>
+                        </div>
+                           
+                    </div>
+                </div>
+
+                <!-- Contact page -->
+
+                <div id="contact" class="tab-content">
                    
+                    <div class="slidebox">        
+                        <h2>Story - Contact</h2>       
+                        
+                        <label for="name">Name</label>
+                        <input type="text" name="name"><br />
+                        
+                        <label for="bodytext">Body text</label>
+                        <textarea name="bodytext"></textarea>
+                        
+                        <label for="mail">Mail link</label>
+                        <input type="email" name="mail">
+                        <div class="blue mt-20">
+                        <button class="button blue">Add contact<i class="fa fa-plus fa-1x"></i></button> </div>
+                    </div>  
+
+                    <div class="slidebox">
+                        <div class="selectwrap">
+                            <select class="content">
+                                <option selected disabled>Add content type</option>                    
+                                <option value="1">1</option>                    
+                                <option value="2">2</option>                    
+                                <option value="3">3</option>                    
+                            </select>
+                        </div>      
+                    </div>
+
+                    <div class="slidebox">
+                        <div class="selectwrap">
+                            <button class="button blue">Preview</button>
+                            <button class="button green">Save</button>
+                        </div>
+                           
+                    </div>
+                </div>        
             </div>
-        </div>        
-    </div>
+
+        </main>
+        
     </body>
 </html>
