@@ -255,6 +255,13 @@ select.content {
     margin: 0;
 }
 
+.fa.fa-bars {
+    display: none;
+    float: right;
+    right: 10px;
+    position: absolute;
+}
+
 
 /* Placeholders */
 
@@ -285,6 +292,31 @@ select.content {
 }
 
 
+
+@media (max-width: 751px ) {
+   #header {
+        width: 100% !important;
+    }
+
+}
+
+@media (max-width: 414px ) {
+    .tab-menu {
+        display: none;
+    }
+    .fa.fa-bars {
+        display: block;
+        color: white; 
+        margin-top: 4px;
+    }
+
+    #header {
+        background-color: lightblue;
+        top: 0px;
+        height: 40px;
+    }
+
+}
     
 
 
