@@ -27,6 +27,12 @@ ul.responsive-menu.show {
     padding-left: 5px;
     transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s !important;
 }
+    
+ul.responsive-menu.show button {
+    background-color: inherit;
+    border: 0;
+    color: white;
+}
 
 
 /* ---------- header ----------------------------------*/
