@@ -9,6 +9,16 @@
 
 
 
+#header {
+    width: 50% !important;
+    margin: 0 auto;
+    position: fixed;
+    margin-bottom: 50px;
+    left: 0px;
+    right: 0px;
+    z-index: 99;
+}
+
 /* tab menu */
 
 /* Style the tab */
@@ -63,19 +73,20 @@ body {
 }
 
 #wrap {
-    width: 400px;
-    height: 600px;
+    
     position: fixed; 
     left:0; 
     right:0;
     top:0; 
-    bottom:0;
-    margin:auto;
+    bottom:0;  
     max-width:100%;
     max-height:100%;
     overflow:auto;
-    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
 }
+
+
 
 a {
     color: black;
@@ -96,6 +107,10 @@ h3 {
 
 .mt-20{
     margin-top: 20px;
+}
+
+.mt-50{
+    margin-top: 50px;
 }
 
 .text-right {
