@@ -303,6 +303,10 @@ select.content {
     margin-top: 9px;  
 }
 
+table.projects .fa-chevron-up {
+    margin-right: 10px;
+}
+
 
 /* Placeholders */
 
