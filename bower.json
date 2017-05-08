@@ -1,9 +1,6 @@
 {
   "name": "tmrw",
   "homepage": "https://github.com/tobyWi/tmrw",
-  "authors": [
-    "Tobias Wiklund <tobias.wiklund@gmail.com>"
-  ],
   "description": "",
   "main": "",
   "license": "MIT",
@@ -15,6 +12,6 @@
     "tests"
   ],
   "dependencies": {
-    "font-awesome": "fontawesome#^4.7.0",
+    "font-awesome": "fontawesome#^4.7.0"
   }
 }
