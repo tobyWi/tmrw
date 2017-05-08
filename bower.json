@@ -12,6 +12,6 @@
     "tests"
   ],
   "dependencies": {
-    "font-awesome": "fontawesome#^4.7.0"
+    "bootstrap-css-only": "^3.3.7"
   }
 }
